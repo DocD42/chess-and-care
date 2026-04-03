@@ -1,0 +1,85 @@
+{
+  "users": {
+    "demo-user-1": {
+      "id": "demo-user-1",
+      "email": "alex@chessandcare.demo",
+      "displayName": "Alex Rivera",
+      "homeBase": "Berlin, Germany",
+      "headline": "Ambitious club player rebuilding better routines."
+    }
+  },
+  "onboarding": {
+    "demo-user-1": {
+      "currentStep": "chess",
+      "completedSteps": ["basics"],
+      "lastSavedAt": "2026-04-03T08:10:00.000Z",
+      "answersByStep": {
+        "basics": {
+          "fullName": "Alex Rivera",
+          "homeBase": "Berlin, Germany",
+          "ageBand": "30-39",
+          "connectionGoals": ["training_partner", "accountability_buddy"]
+        }
+      }
+    }
+  },
+  "chessProfiles": {
+    "demo-user-1": {
+      "focusArea": "Tournament steadiness and better study consistency",
+      "experienceBand": "Club player, roughly 1600-1900 online strength",
+      "preferredTimeControls": ["Rapid", "Classical"],
+      "studyCadence": "4 focused sessions per week",
+      "platforms": ["Lichess", "OTB club"]
+    }
+  },
+  "healthProfiles": {
+    "demo-user-1": {
+      "sleepConsistency": "Improving, but vulnerable before important games",
+      "nutritionStyle": "Simple and practical, no strict diet",
+      "mobilityLevel": "Needs regular movement breaks",
+      "stressRecovery": "Moderate, with tilt after avoidable losses"
+    }
+  },
+  "matchingPreferences": {
+    "demo-user-1": {
+      "intents": ["training_partner", "accountability_buddy", "chess_companion"],
+      "availability": ["Weekday evenings", "Sunday mornings"],
+      "communicationStyle": "Clear, calm, and direct",
+      "distancePreference": "Remote first, in-person optional",
+      "duoModeInterest": "High interest in a shared routine partner"
+    }
+  },
+  "routineItems": {
+    "demo-user-1": [
+      {
+        "id": "routine-1",
+        "title": "Night-before wind-down",
+        "category": "sleep",
+        "cadence": "Before league nights and tournaments",
+        "status": "on-track"
+      },
+      {
+        "id": "routine-2",
+        "title": "Mid-session mobility reset",
+        "category": "mobility",
+        "cadence": "Every long study session",
+        "status": "needs-attention"
+      },
+      {
+        "id": "routine-3",
+        "title": "Post-loss recovery note",
+        "category": "recovery",
+        "cadence": "After emotionally costly games",
+        "status": "on-track"
+      }
+    ]
+  },
+  "duoMode": {
+    "demo-user-1": {
+      "status": "invited",
+      "title": "Duo Mode concept",
+      "description": "A shared rhythm space for two people with aligned goals, check-ins, and routine follow-through.",
+      "nextAction": "Confirm whether Duo Mode should prioritize shared routines or match accountability first."
+    }
+  }
+}

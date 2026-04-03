@@ -25,6 +25,12 @@ export function SiteHeader() {
           </a>
 
           <nav className="hidden items-center gap-7 text-sm text-muted md:flex">
+            <a
+              href="/app"
+              className="font-semibold text-foreground transition-colors hover:text-brand"
+            >
+              Product preview
+            </a>
             {navItems.map((item) => (
               <a
                 key={item.href}

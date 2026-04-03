@@ -38,6 +38,7 @@ yarn-error.log*
 
 # local demo data
 /data/waitlist-submissions.json
+/data/mock/product-state.local.json
 
 # typescript
 *.tsbuildinfo
